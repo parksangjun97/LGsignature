@@ -18,7 +18,10 @@
     
 
     .videoheader{
+        position: relative;
+        height: 800px;
         margin-bottom: 100px;
+        overflow: hidden;
     }
     .videoheader > div:first-of-type{
         position: absolute; left: 0; top: 0; width: 90%; padding-top: 200px;
@@ -611,9 +614,8 @@
         font-size: 12px; font-weight: 300; margin-bottom: 90px; line-height: 20px;
     }
     .inspirationArea2{
-       max-width: 850px; margin: 0 auto;
+        max-width: 850px; margin: 0 auto;
     }
-   
     .inspirationArea .inspirationArea2 ul::after{
         content: '';
         display: block;
@@ -635,7 +637,6 @@
     .inspirationArea .inspirationArea2 ul li:hover{
         color: #fc097c;
     }
-  
 
     .inspirationArea .inspirationArea3{
         margin-bottom: 90px;
@@ -655,7 +656,7 @@
         display: block;
         clear: both;
     }
-   
+
     .inspirationArea .inspirationArea3 ul li{
         display: block; position: relative; float: left; width: 93%; padding-left: 3.5%; margin-bottom: 50px;
     }
