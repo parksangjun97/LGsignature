@@ -1585,7 +1585,7 @@
 
 @media screen and (min-width:1280px){
 .videoheader{
-    margin-bottom: 250px;
+    margin-bottom: 1100px;
 }
 .videoheader > div:first-of-type{
     position: absolute; left: 0; top: 0; width: 80%;  padding-top: 300px; padding-left: 20%;
