@@ -97,7 +97,6 @@ main > video{
     footer ul::after{
         content: ''; display: block; clear: both;
     }
-  
     footer ul li h2{
         font-family: 'Jost'; color: #cfcfcf; margin-bottom: 20px; font-size: 22px;
     }

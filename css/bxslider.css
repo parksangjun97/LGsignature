@@ -6,7 +6,6 @@
     position: relative;
     margin-bottom: 60px;
     padding: 0;
-    *zoom: 1;
     -ms-touch-action: pan-y;
     touch-action: pan-y;
   }
@@ -55,7 +54,6 @@
     right: 10px;
     background: url('../images/arrow2.png') no-repeat;
   }
- 
   .bx-wrapper .bx-controls-direction a {
     position: absolute;
     top: 50%;
@@ -69,4 +67,3 @@
   .bx-wrapper .bx-controls-direction a.disabled {
     display: none;
   }
- 
