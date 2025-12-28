@@ -20,7 +20,7 @@
     .videoheader{
         position: relative;
         height: 800px;
-        margin-bottom: 100px;
+        margin-bottom: 250px;
         overflow: hidden;
     }
     .videoheader > div:first-of-type{
