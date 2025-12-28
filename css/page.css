@@ -24,7 +24,7 @@
         overflow: hidden;
     }
     .videoheader > div:first-of-type{
-        position: absolute; left: 0; top: 0; width: 90%; padding-top: 200px;
+        position: absolute; left: 0; top: 0; width: 100%; padding-top: 200px;
         z-index: 10; padding-left: 4%;
     }
     .videoheader > div:first-of-type h2,
@@ -811,10 +811,10 @@
 
 
     .videoheader{
-        margin-bottom: 100px;
+        margin-bottom: 900px;
     }
     .videoheader > div:first-of-type{
-        position: absolute; left: 0; top: 0; width: 80%; padding-top: 160px;
+        position: absolute; left: 0; top: 0; width: 100%; padding-top: 160px;
         z-index: 10; padding-left: 20%;
     }
     .videoheader > div:first-of-type h2,
@@ -1588,7 +1588,7 @@
     margin-bottom: 1100px;
 }
 .videoheader > div:first-of-type{
-    position: absolute; left: 0; top: 0; width: 80%;  padding-top: 300px; padding-left: 20%;
+    position: absolute; left: 0; top: 0; width: 100%;  padding-top: 300px; padding-left: 20%;
     z-index: 10; box-sizing: border-box;
 }
 .videoheader > div:first-of-type h2,

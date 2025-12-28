@@ -38,7 +38,7 @@ span{
 .productArea h2{
     color: #e02095; font-size: 17px; font-weight: 900; margin-bottom: 40px;
 }
-.videoheader > div:last-of-type video{
+/* .videoheader > div:last-of-type video{
     position: absolute;
     top: 0;
     left: 0;
@@ -46,7 +46,7 @@ span{
     height: 100%;
     object-fit: cover;
     opacity: 0.6;
-}
+} */
 
 
 @media screen and (max-width:767px){
