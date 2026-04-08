@@ -6,10 +6,7 @@
     position: relative;
     margin-bottom: 60px;
     padding: 0;
-<<<<<<< HEAD
-=======
     *zoom: 1;
->>>>>>> c7e58ff (LG 시그니처 최종 수정)
     -ms-touch-action: pan-y;
     touch-action: pan-y;
   }
@@ -30,16 +27,6 @@
   }
   /** THEME
   ===================================*/
-<<<<<<< HEAD
-  .bx-wrapper {
-    -moz-box-shadow: 0 0 5px #ccc;
-    -webkit-box-shadow: 0 0 5px #ccc;
-    box-shadow: 0 0 5px #ccc;
-    border: 5px solid #fff;
-    background: #fff;
-  }
-=======
->>>>>>> c7e58ff (LG 시그니처 최종 수정)
   .bx-wrapper .bx-pager,
   .bx-wrapper .bx-controls-auto {
     position: absolute;
@@ -49,27 +36,12 @@
 
 
   /* DIRECTION CONTROLS (NEXT / PREV) */
-<<<<<<< HEAD
-  .bx-wrapper .bx-prev {
-    left: 10px;
-    background: url('../images/arrow1.png') no-repeat;
-  }
-=======
-
->>>>>>> c7e58ff (LG 시그니처 최종 수정)
   .bx-wrapper .bx-prev:hover,
   .bx-wrapper .bx-prev:focus {
     background-position: 0 0;
   }
-<<<<<<< HEAD
-  .bx-wrapper .bx-next {
-    right: 10px;
-    background: url('../images/arrow2.png') no-repeat;
-  }
-=======
 
  
->>>>>>> c7e58ff (LG 시그니처 최종 수정)
   .bx-wrapper .bx-controls-direction a {
     position: absolute;
     top: 50%;
@@ -83,7 +55,4 @@
   .bx-wrapper .bx-controls-direction a.disabled {
     display: none;
   }
-<<<<<<< HEAD
-=======
  
->>>>>>> c7e58ff (LG 시그니처 최종 수정)
