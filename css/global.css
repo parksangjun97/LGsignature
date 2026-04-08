@@ -1,0 +1,305 @@
+body{
+    background-color: #121212;
+}
+body a{
+    text-decoration: none;
+}
+.jost,
+.btn,
+h2,
+h3,
+.inspirationArea h4,
+.sliderdiv .slider li span{
+    font-family: 'Jost';
+}
+.kanit,
+strong,
+p,
+span{
+    font-family: 'Kanit';
+}
+.birthstone{
+    font-family: 'Birthstone';
+}
+.btn{
+    background-color: white; color: black; font-size: 14px;
+    padding: 15px 25px; border-radius: 5px; font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.aboutArea .aboutcon,
+.productArea .productcon{
+    max-width: 1120px; margin: 0 auto;
+}
+.aboutArea .aboutcon h2,
+.productArea h2{
+    color: #e02095; font-size: 17px; font-weight: 900; margin-bottom: 40px;
+}
+main > video{
+    position: absolute; top:0; width: 100%;
+}
+
+
+
+@media screen and (max-width:767px){
+    header{
+        position: fixed; left: 0; top: 0; width: 100%; padding: 35px 0;
+        z-index: 100; transition: background-color .5s ease-out;
+        
+    }
+    header.active{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    header div h1{
+        width: 50%; min-width: 160px; position: absolute;
+        left: 0; top: 45px;
+    }
+    header div h1 a::before {
+        content: 'LG'; background-color: #fc097c; display:inline-block; margin-left: 2%;
+    }
+    
+    header div h1 a{
+        text-decoration: none; font-size: 20px; font-weight: 800; color: white;
+    }
+    header div nav{
+        font-size: 10px; width: 100%; text-align: right;
+    }
+    header div nav span{
+        color: white; display: inline-block;
+    }
+    header div nav ul{
+        display: block;
+    }
+    header div nav ul li{
+        display: block; padding: 20px 3% 0 0;
+    }
+    header div nav ul li:not(:last-child){
+        margin-bottom: 20px;
+    }
+    header div nav ul li:hover{
+        opacity: 0.7;
+    }
+    header div nav ul li a{
+        text-decoration: none; color: white; font-weight: 700;
+        font-size: 13px;
+    }
+    
+    
+    
+    
+    footer{
+        color: white; max-width: 1230px; margin: 0 auto; padding-bottom: 100px;
+    }
+    footer ul::after{
+        content: ''; display: block; clear: both;
+    }
+  
+    footer ul li h2{
+        font-family: 'Jost'; color: #cfcfcf; margin-bottom: 20px; font-size: 22px;
+    }
+    footer ul li{
+        list-style: none; width: 100%; margin-bottom: 60px; text-align: center;
+    }
+    footer ul li:last-child a{
+        display: block; text-align: center; 
+    }
+    footer ul li a:hover{
+        color: #ffffff;
+    }
+    
+    
+    footer ul li a{
+        display: block; font-weight: 100; color: #bdbdbd; font-family: 'Kanit'; font-size: 14px;
+        line-height: 20px;
+    }
+
+    footer ul li a:not(:last-child){
+        margin-bottom: 15px;
+    }
+    footer p{
+        color: #bdbdbd;
+        font-weight: 300;
+        font-size: 10px;
+        text-align: center;
+        padding-top: 30px;
+        margin-top: 100px;
+        border-top: 1px solid #353535;
+        margin-left: -5%;
+        padding-left: 6%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1279px){
+    
+    #menuToggle{
+        display: none;
+    }
+
+    header{
+        position: fixed; left: 0; top: 0; width: 100%; padding: 30px 0;
+        z-index: 100; transition: background-color .5s ease-out;
+    }
+    header.active{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    header div h1{
+        margin-bottom: 30px; text-align: center;
+    }
+    header div h1 a::before {
+        content: 'LG'; background-color: #fc097c; display: inline-block;
+    }
+    
+    header div h1 a{
+        text-decoration: none; font-size: 30px; font-weight: 800; color: white;
+    }
+    header div nav{
+        font-size: 10px; text-align: center; width: 100%;
+    }
+    header div nav ul li{
+        display: inline-block;
+    }
+    header div nav span{
+        display: none;
+    }
+    header div nav ul li:hover{
+        opacity: 0.7;
+    }
+    header div nav ul li:not(:first-child){
+        margin-left: 4.5%;
+    }
+    header div nav ul li a{
+        text-decoration: none; color: white;
+    }
+    
+    
+    
+    
+    footer{
+        color: white; max-width: 1230px; margin: 0 auto; padding-bottom: 150px;
+    }
+    footer ul::after{
+        content: ''; display: block; clear: both;
+    }
+    footer ul{
+        padding-left: 9%;
+    }
+    footer ul li h2{
+        font-family: 'Jost'; color: #cfcfcf; margin-bottom: 20px; font-size: 13px;
+    }
+    footer ul li{
+        list-style: none; float: left; width: 13%;
+    }
+    footer ul li a:hover{
+        color: #ffffff;
+    }
+    
+    footer ul li:not(:first-child){
+        margin-left: 2.5%;
+    }
+    footer ul li a{
+        display: block; font-weight: 100; color: #bdbdbd; font-family: 'Kanit'; font-size: 13px;
+        line-height: 20px;
+    }
+    footer ul li:last-child{
+        max-width: 130px;
+    }
+    footer ul li a:not(:last-child){
+        margin-bottom: 15px;
+    }
+    footer p{
+        color: #bdbdbd;
+        font-weight: 300;
+        font-size: 10px;
+        text-align: center;
+        padding-top: 30px;
+        margin-top: 100px;
+        border-top: 1px solid #353535;
+        margin-left: -5%;
+    }
+}
+@media screen and (min-width:1280px){
+    
+    #menuToggle {
+        display: none;
+    }
+    header{
+        position: fixed; left: 0; top: 0; width: 100%; padding: 30px 0;
+        z-index: 100; transition: background-color .5s ease-out;
+    }
+header.active{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header div h1{
+    text-align: center; margin-bottom: 40px;
+}
+header div h1 a::before {
+    content: 'LG'; background-color: #fc097c;display: inline-block;
+}
+
+header div h1 a{
+    text-decoration: none; font-size: 30px; font-weight: 800; color: white; text-align: center;
+}
+header div nav{
+    font-size: 14px; text-align: center;
+}
+header div nav ul li{
+    display: inline-block;
+}
+header div nav ul li:hover{
+    opacity: 0.7;
+}
+header div nav ul li:not(:first-child){
+    margin-left: 4.5%;
+}
+header div nav ul li a{
+    text-decoration: none; color: white;
+}
+
+
+
+
+footer{
+    color: white; max-width: 1230px; margin: 0 auto; padding-bottom: 150px;
+}
+footer ul::after{
+    content: ''; display: block; clear: both;
+}
+footer ul li h2{
+    font-family: 'Jost'; color: #cfcfcf; margin-bottom: 20px;
+}
+footer ul li{
+    list-style: none; float: left; width: 15%;
+}
+footer ul li:first-child{
+    padding-left: 2%;
+}
+footer ul li a:hover{
+    color: #ffffff;
+}
+footer ul li:not(:first-child){
+    margin-left: 2.2%;
+}
+footer ul li a{
+    display: block; font-weight: 100; color: #bdbdbd; font-family: 'Kanit';
+}
+footer ul li:last-child{
+    max-width: 130px;
+}
+footer ul li a:not(:last-child){
+    margin-bottom: 15px;
+}
+footer p{
+    color: #bdbdbd;
+    font-weight: 300;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 100px;
+    border-top: 1px solid #353535;
+}
+}
