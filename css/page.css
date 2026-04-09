@@ -769,7 +769,7 @@
         width: 85%; margin: 0 auto; box-sizing: border-box;
     }
     .sliderdiv > div:last-child{
-        border-bottom: 1px solid #acacac; max-width: 750px; margin-bottom: 3%;
+        border-bottom: 1px solid #acacac; max-width: 750px;
     }
     
     .bx-wrapper .bx-controls-direction a {
@@ -1542,7 +1542,7 @@
         font-size: 37px; margin-bottom: 20px;
     }
     .sliderdiv > div:nth-of-type(2){
-        padding-left: 7%; padding-bottom: 3%;
+        padding-left: 7%;
     }
     .sliderdiv > div:nth-of-type(2) ul li h3{
         font-size: 25px; display: block; text-align: center; margin-top: 30px; font-weight: 900;
@@ -1559,7 +1559,7 @@
     }
     
     .sliderdiv > div:last-child{
-        border-bottom: 1px solid #acacac; max-width: 750px; margin-bottom: 3%;
+        border-bottom: 1px solid #acacac; max-width: 750px;
     }
     .bx-wrapper .bx-controls-direction a {
         position: absolute;
